@@ -19,9 +19,9 @@ Servicio api que levanta uvicorn sobre FastAPI. El código se monta en ./api y e
 ├── docker-compose.yml
 ├── Dockerfile
 ├── requirements.txt
-├── .env (oculto)
-└── README.md
-```
+└──  .env (oculto)  
+   
+ ```
 El docker-compose.yml mapea ./api dentro del contenedor y arranca uvicorn api.main:app. Si cambias la carpeta o el nombre del módulo, ajusta ese comando.
 
 ## Imágenes de la Api y consultas en MongoDB
